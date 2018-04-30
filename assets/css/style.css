@@ -219,7 +219,7 @@ input[type=submit] {
 /* Media Queries */
 
 @media screen and (max-width:980px) {
-  #container, .container {
+  #main-container, .container {
     width: 75%;
   }
 
@@ -227,7 +227,7 @@ input[type=submit] {
     flex-direction: column;
   }
 
-  .main-section {
+  .main-section { 
     font-size: 2vh;
   }
 
@@ -238,9 +238,13 @@ input[type=submit] {
 }
 
 @media screen and (max-width:768px) {
-  #container, .container {
+  .container {
     width: 100%;
     font-size: 2vh;
+  }
+
+  #main-container {
+    width: 80%;
   }
 
   .row {
@@ -273,9 +277,13 @@ input[type=submit] {
 }
 
 @media screen and (max-width:640px) {
-  #container, .container {
+  .container {
     width: 100%;
     font-size: 2vh;
+  }
+
+  #main-container {
+    width: 80%;
   }
 
   .row {
