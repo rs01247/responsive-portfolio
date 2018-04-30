@@ -270,6 +270,10 @@ input[type=submit] {
     margin: auto;
   }
 
+  .paragraph {
+    margin-top: 1vh;
+  }
+
   .work {
     width: 100%;  
   }
@@ -307,6 +311,10 @@ input[type=submit] {
   .auth-image {
     width: 100%;
     margin: auto;
+  }
+
+  .paragraph {
+    margin-top: 1vh;
   }
 
   .work {
